@@ -11,6 +11,17 @@
 		F5315C4B2C9989EC001D65C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C4A2C9989EC001D65C4 /* ContentView.swift */; };
 		F5315C4D2C9989F2001D65C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5315C4C2C9989F2001D65C4 /* Assets.xcassets */; };
 		F5315C502C9989F2001D65C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5315C4F2C9989F2001D65C4 /* Preview Assets.xcassets */; };
+		F5315C572C99C128001D65C4 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C562C99C128001D65C4 /* SplashScreenView.swift */; };
+		F5315C5A2C9A16CF001D65C4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C592C9A16CF001D65C4 /* ProfileView.swift */; };
+		F5315C5C2C9A16E1001D65C4 /* CVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C5B2C9A16E1001D65C4 /* CVView.swift */; };
+		F5315C5E2C9A16F2001D65C4 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C5D2C9A16F2001D65C4 /* ProjectsView.swift */; };
+		F5315C602C9A23FE001D65C4 /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C5F2C9A23FE001D65C4 /* ProjectDetailView.swift */; };
+		F5315C622C9AD46D001D65C4 /* ProjectItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C612C9AD46D001D65C4 /* ProjectItemView.swift */; };
+		F5315C642C9AFDCD001D65C4 /* MyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C632C9AFDCD001D65C4 /* MyInfoView.swift */; };
+		F5315C662C9AFE4C001D65C4 /* ReferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C652C9AFE4C001D65C4 /* ReferencesView.swift */; };
+		F5315C682C9B06A8001D65C4 /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C672C9B06A8001D65C4 /* NavBarView.swift */; };
+		F5315C6C2C9B0A3E001D65C4 /* MailManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C6B2C9B0A3E001D65C4 /* MailManagerView.swift */; };
+		F571A99F2C9D756F007DA470 /* CareerOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F571A99E2C9D756F007DA470 /* CareerOverviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		F5315C4A2C9989EC001D65C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5315C4C2C9989F2001D65C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5315C4F2C9989F2001D65C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5315C562C99C128001D65C4 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		F5315C592C9A16CF001D65C4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F5315C5B2C9A16E1001D65C4 /* CVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVView.swift; sourceTree = "<group>"; };
+		F5315C5D2C9A16F2001D65C4 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		F5315C5F2C9A23FE001D65C4 /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
+		F5315C612C9AD46D001D65C4 /* ProjectItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectItemView.swift; sourceTree = "<group>"; };
+		F5315C632C9AFDCD001D65C4 /* MyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoView.swift; sourceTree = "<group>"; };
+		F5315C652C9AFE4C001D65C4 /* ReferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferencesView.swift; sourceTree = "<group>"; };
+		F5315C672C9B06A8001D65C4 /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
+		F5315C6B2C9B0A3E001D65C4 /* MailManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailManagerView.swift; sourceTree = "<group>"; };
+		F571A99E2C9D756F007DA470 /* CareerOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerOverviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +75,8 @@
 			children = (
 				F5315C482C9989EC001D65C4 /* MyPortfolioApp.swift */,
 				F5315C4A2C9989EC001D65C4 /* ContentView.swift */,
+				F5315C672C9B06A8001D65C4 /* NavBarView.swift */,
+				F5315C582C9A16B8001D65C4 /* Views */,
 				F5315C4C2C9989F2001D65C4 /* Assets.xcassets */,
 				F5315C4E2C9989F2001D65C4 /* Preview Content */,
 			);
@@ -65,6 +89,39 @@
 				F5315C4F2C9989F2001D65C4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5315C582C9A16B8001D65C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5315C562C99C128001D65C4 /* SplashScreenView.swift */,
+				F5315C592C9A16CF001D65C4 /* ProfileView.swift */,
+				F5315C5B2C9A16E1001D65C4 /* CVView.swift */,
+				F5315C652C9AFE4C001D65C4 /* ReferencesView.swift */,
+				F571A99E2C9D756F007DA470 /* CareerOverviewView.swift */,
+				F5315C6A2C9B09A2001D65C4 /* Contacts */,
+				F5315C692C9B07D7001D65C4 /* Projects */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5315C692C9B07D7001D65C4 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				F5315C5D2C9A16F2001D65C4 /* ProjectsView.swift */,
+				F5315C612C9AD46D001D65C4 /* ProjectItemView.swift */,
+				F5315C5F2C9A23FE001D65C4 /* ProjectDetailView.swift */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		F5315C6A2C9B09A2001D65C4 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				F5315C632C9AFDCD001D65C4 /* MyInfoView.swift */,
+				F5315C6B2C9B0A3E001D65C4 /* MailManagerView.swift */,
+			);
+			path = Contacts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +194,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5315C682C9B06A8001D65C4 /* NavBarView.swift in Sources */,
+				F5315C5E2C9A16F2001D65C4 /* ProjectsView.swift in Sources */,
+				F5315C622C9AD46D001D65C4 /* ProjectItemView.swift in Sources */,
+				F5315C662C9AFE4C001D65C4 /* ReferencesView.swift in Sources */,
+				F5315C5A2C9A16CF001D65C4 /* ProfileView.swift in Sources */,
+				F571A99F2C9D756F007DA470 /* CareerOverviewView.swift in Sources */,
 				F5315C4B2C9989EC001D65C4 /* ContentView.swift in Sources */,
+				F5315C642C9AFDCD001D65C4 /* MyInfoView.swift in Sources */,
+				F5315C6C2C9B0A3E001D65C4 /* MailManagerView.swift in Sources */,
 				F5315C492C9989EC001D65C4 /* MyPortfolioApp.swift in Sources */,
+				F5315C5C2C9A16E1001D65C4 /* CVView.swift in Sources */,
+				F5315C572C99C128001D65C4 /* SplashScreenView.swift in Sources */,
+				F5315C602C9A23FE001D65C4 /* ProjectDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
