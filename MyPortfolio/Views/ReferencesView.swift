@@ -74,10 +74,12 @@ struct ReferencesView: View {
             }
             .toolbar {
                 ToolbarItem(placement: .principal) {
-                    Text("References")
-                        .font(.largeTitle)
+                    Text("REFERENCES")
+                        .font(.title2)
                         .fontWeight(.bold)
                         .foregroundColor(Color.blue)
+                        .padding(.top, 20.0)
+                    
                 }
             }
         }

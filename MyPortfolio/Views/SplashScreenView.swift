@@ -22,7 +22,7 @@ struct SplashScreenView: View {
                     Image("MyPortfolio.logo")
                         .resizable()
                         .frame(width: 200, height: 200)
-
+                    
                     Text("My Portfolio")
                         .fontWeight(.black)
                         .foregroundColor(Color.blue)

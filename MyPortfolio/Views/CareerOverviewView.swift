@@ -27,7 +27,7 @@ struct CareerOverviewView: View {
             VStack {
                 Text("")
                 List {
-                    Section(header: Text("Experiences").font(.title).foregroundColor(Color.blue).bold().padding(.vertical)) {
+                    Section(header: Text("Experiences").font(.title2).foregroundColor(Color.blue).bold().padding(.vertical)) {
                         ForEach(experiences, id: \.0) { experience in
                             VStack(alignment: .leading, spacing: 10) {
                                 HStack {
@@ -54,7 +54,7 @@ struct CareerOverviewView: View {
                         }
                     }
                     
-                    Section(header: Text("Educations").font(.title).foregroundColor(Color.blue).bold().padding(.vertical)) {
+                    Section(header: Text("Educations").font(.title2).foregroundColor(Color.blue).bold().padding(.vertical)) {
                         ForEach(educations, id: \.0) { education in
                             VStack(alignment: .leading, spacing: 10) {
                                 HStack {
@@ -76,7 +76,7 @@ struct CareerOverviewView: View {
                                         .foregroundColor(.gray)
                                 }
                             }
-                            .padding(.vertical, 5)
+                            .padding(.vertical, 15)
                         }
                     }
                 }

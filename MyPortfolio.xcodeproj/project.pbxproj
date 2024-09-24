@@ -13,7 +13,6 @@
 		F5315C502C9989F2001D65C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5315C4F2C9989F2001D65C4 /* Preview Assets.xcassets */; };
 		F5315C572C99C128001D65C4 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C562C99C128001D65C4 /* SplashScreenView.swift */; };
 		F5315C5A2C9A16CF001D65C4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C592C9A16CF001D65C4 /* ProfileView.swift */; };
-		F5315C5C2C9A16E1001D65C4 /* CVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C5B2C9A16E1001D65C4 /* CVView.swift */; };
 		F5315C5E2C9A16F2001D65C4 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C5D2C9A16F2001D65C4 /* ProjectsView.swift */; };
 		F5315C602C9A23FE001D65C4 /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C5F2C9A23FE001D65C4 /* ProjectDetailView.swift */; };
 		F5315C622C9AD46D001D65C4 /* ProjectItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C612C9AD46D001D65C4 /* ProjectItemView.swift */; };
@@ -22,6 +21,13 @@
 		F5315C682C9B06A8001D65C4 /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C672C9B06A8001D65C4 /* NavBarView.swift */; };
 		F5315C6C2C9B0A3E001D65C4 /* MailManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5315C6B2C9B0A3E001D65C4 /* MailManagerView.swift */; };
 		F571A99F2C9D756F007DA470 /* CareerOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F571A99E2C9D756F007DA470 /* CareerOverviewView.swift */; };
+		F571A9A42CA1695B007DA470 /* ReDesignBRFAPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F571A9A32CA1695B007DA470 /* ReDesignBRFAPView.swift */; };
+		F571A9A62CA16CE6007DA470 /* HamiAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F571A9A52CA16CE6007DA470 /* HamiAppView.swift */; };
+		F571A9A82CA16D90007DA470 /* TicTacToeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F571A9A72CA16D90007DA470 /* TicTacToeView.swift */; };
+		F571A9AA2CA17052007DA470 /* MyPortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F571A9A92CA17052007DA470 /* MyPortfolioView.swift */; };
+		F571A9AD2CA171B8007DA470 /* ColumbusUXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F571A9AC2CA171B8007DA470 /* ColumbusUXView.swift */; };
+		F571A9AF2CA1721D007DA470 /* OurLivingUXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F571A9AE2CA1721D007DA470 /* OurLivingUXView.swift */; };
+		F571A9B22CA19D62007DA470 /* test film.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F571A9B12CA19D4E007DA470 /* test film.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +38,6 @@
 		F5315C4F2C9989F2001D65C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F5315C562C99C128001D65C4 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		F5315C592C9A16CF001D65C4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		F5315C5B2C9A16E1001D65C4 /* CVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVView.swift; sourceTree = "<group>"; };
 		F5315C5D2C9A16F2001D65C4 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		F5315C5F2C9A23FE001D65C4 /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
 		F5315C612C9AD46D001D65C4 /* ProjectItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectItemView.swift; sourceTree = "<group>"; };
@@ -41,6 +46,13 @@
 		F5315C672C9B06A8001D65C4 /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
 		F5315C6B2C9B0A3E001D65C4 /* MailManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailManagerView.swift; sourceTree = "<group>"; };
 		F571A99E2C9D756F007DA470 /* CareerOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerOverviewView.swift; sourceTree = "<group>"; };
+		F571A9A32CA1695B007DA470 /* ReDesignBRFAPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReDesignBRFAPView.swift; sourceTree = "<group>"; };
+		F571A9A52CA16CE6007DA470 /* HamiAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamiAppView.swift; sourceTree = "<group>"; };
+		F571A9A72CA16D90007DA470 /* TicTacToeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeView.swift; sourceTree = "<group>"; };
+		F571A9A92CA17052007DA470 /* MyPortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPortfolioView.swift; sourceTree = "<group>"; };
+		F571A9AC2CA171B8007DA470 /* ColumbusUXView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumbusUXView.swift; sourceTree = "<group>"; };
+		F571A9AE2CA1721D007DA470 /* OurLivingUXView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurLivingUXView.swift; sourceTree = "<group>"; };
+		F571A9B12CA19D4E007DA470 /* test film.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "test film.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,7 @@
 		F5315C472C9989EC001D65C4 /* MyPortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				F571A9B02CA19D32007DA470 /* Movies */,
 				F5315C482C9989EC001D65C4 /* MyPortfolioApp.swift */,
 				F5315C4A2C9989EC001D65C4 /* ContentView.swift */,
 				F5315C672C9B06A8001D65C4 /* NavBarView.swift */,
@@ -96,7 +109,6 @@
 			children = (
 				F5315C562C99C128001D65C4 /* SplashScreenView.swift */,
 				F5315C592C9A16CF001D65C4 /* ProfileView.swift */,
-				F5315C5B2C9A16E1001D65C4 /* CVView.swift */,
 				F5315C652C9AFE4C001D65C4 /* ReferencesView.swift */,
 				F571A99E2C9D756F007DA470 /* CareerOverviewView.swift */,
 				F5315C6A2C9B09A2001D65C4 /* Contacts */,
@@ -111,6 +123,7 @@
 				F5315C5D2C9A16F2001D65C4 /* ProjectsView.swift */,
 				F5315C612C9AD46D001D65C4 /* ProjectItemView.swift */,
 				F5315C5F2C9A23FE001D65C4 /* ProjectDetailView.swift */,
+				F571A9AB2CA17164007DA470 /* ProjectsGroup */,
 			);
 			path = Projects;
 			sourceTree = "<group>";
@@ -122,6 +135,27 @@
 				F5315C6B2C9B0A3E001D65C4 /* MailManagerView.swift */,
 			);
 			path = Contacts;
+			sourceTree = "<group>";
+		};
+		F571A9AB2CA17164007DA470 /* ProjectsGroup */ = {
+			isa = PBXGroup;
+			children = (
+				F571A9A72CA16D90007DA470 /* TicTacToeView.swift */,
+				F571A9A92CA17052007DA470 /* MyPortfolioView.swift */,
+				F571A9AC2CA171B8007DA470 /* ColumbusUXView.swift */,
+				F571A9A32CA1695B007DA470 /* ReDesignBRFAPView.swift */,
+				F571A9A52CA16CE6007DA470 /* HamiAppView.swift */,
+				F571A9AE2CA1721D007DA470 /* OurLivingUXView.swift */,
+			);
+			path = ProjectsGroup;
+			sourceTree = "<group>";
+		};
+		F571A9B02CA19D32007DA470 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				F571A9B12CA19D4E007DA470 /* test film.mp4 */,
+			);
+			path = Movies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +218,7 @@
 			files = (
 				F5315C502C9989F2001D65C4 /* Preview Assets.xcassets in Resources */,
 				F5315C4D2C9989F2001D65C4 /* Assets.xcassets in Resources */,
+				F571A9B22CA19D62007DA470 /* test film.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,18 +230,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5315C682C9B06A8001D65C4 /* NavBarView.swift in Sources */,
+				F571A9A62CA16CE6007DA470 /* HamiAppView.swift in Sources */,
 				F5315C5E2C9A16F2001D65C4 /* ProjectsView.swift in Sources */,
 				F5315C622C9AD46D001D65C4 /* ProjectItemView.swift in Sources */,
 				F5315C662C9AFE4C001D65C4 /* ReferencesView.swift in Sources */,
 				F5315C5A2C9A16CF001D65C4 /* ProfileView.swift in Sources */,
 				F571A99F2C9D756F007DA470 /* CareerOverviewView.swift in Sources */,
+				F571A9A42CA1695B007DA470 /* ReDesignBRFAPView.swift in Sources */,
 				F5315C4B2C9989EC001D65C4 /* ContentView.swift in Sources */,
 				F5315C642C9AFDCD001D65C4 /* MyInfoView.swift in Sources */,
 				F5315C6C2C9B0A3E001D65C4 /* MailManagerView.swift in Sources */,
 				F5315C492C9989EC001D65C4 /* MyPortfolioApp.swift in Sources */,
-				F5315C5C2C9A16E1001D65C4 /* CVView.swift in Sources */,
+				F571A9A82CA16D90007DA470 /* TicTacToeView.swift in Sources */,
 				F5315C572C99C128001D65C4 /* SplashScreenView.swift in Sources */,
 				F5315C602C9A23FE001D65C4 /* ProjectDetailView.swift in Sources */,
+				F571A9AA2CA17052007DA470 /* MyPortfolioView.swift in Sources */,
+				F571A9AD2CA171B8007DA470 /* ColumbusUXView.swift in Sources */,
+				F571A9AF2CA1721D007DA470 /* OurLivingUXView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

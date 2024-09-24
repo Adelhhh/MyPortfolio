@@ -11,14 +11,14 @@ struct ProjectItem: View {
     var title: String
     var description: String
     var imageName: String
-
+    
     var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
+        VStack(alignment: .leading, spacing: 20) {
             Image(imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(height: 200)
-                .cornerRadius(10)
+                .shadow(radius: 5)
             
             Text(title)
                 .font(.headline)
@@ -26,7 +26,7 @@ struct ProjectItem: View {
             
             Text(description)
                 .font(.subheadline)
-                .foregroundColor(.gray)
+                .foregroundColor(.black)
                 .multilineTextAlignment(.leading)
         }
         .padding(.bottom, 20)
@@ -35,6 +35,8 @@ struct ProjectItem: View {
 
 struct ProjectItem_Previews: PreviewProvider {
     static var previews: some View {
-        ProjectItem(title: "UX-Project 1", description: "This is a detailed description of UX project 1.", imageName: "ux_project_1")
+        ProjectItem(
+            title: "", description: "This is a detailed description of UX project 1.",
+            imageName: "ux_project_1")
     }
 }
