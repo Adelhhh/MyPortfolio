@@ -28,15 +28,11 @@ struct ReferencesView: View {
             List(references) { reference in
                 Section {
                     VStack(alignment: .leading, spacing: 5) {
-                        
                         HStack {
                             Text(reference.name)
                                 .font(.headline)
-                            
                             Spacer()
                         }
-                        
-                        
                         HStack {
                             Text(reference.jobTitle)
                                 .font(.subheadline)
@@ -66,7 +62,6 @@ struct ReferencesView: View {
                             .frame(height: 40.0)
                             .background(Color.blue)
                             .cornerRadius(5)
-                            
                         }
                     }
                     .padding(.vertical, 10)
@@ -79,7 +74,6 @@ struct ReferencesView: View {
                         .fontWeight(.bold)
                         .foregroundColor(Color.blue)
                         .padding(.top, 20.0)
-                    
                 }
             }
         }
