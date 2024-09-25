@@ -10,11 +10,9 @@ import SwiftUI
 struct HamiAppView: View {
     var body: some View {
         VStack {
-            Text("")
+            HamiImageView(imageName: "HAMI-App")
             ScrollView {
                 VStack(spacing: 20) {
-                    HamiImageView(imageName: "HAMI-App")
-                    
                     Text("HamiApp - A Productivity App!")
                         .fontWeight(.bold)
                         .frame(maxWidth: .infinity, alignment: .leading)

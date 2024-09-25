@@ -9,10 +9,9 @@ import SwiftUI
 struct MyPortfolioView: View {
     var body: some View {
         VStack {
-            Text("")
+            PortfolioImageView(imageName: "MyPortfolioProject")
             ScrollView {
                 VStack(spacing: 20) {
-                    PortfolioImageView(imageName: "MyPortfolioProject")
                     
                     Text("As a UX designer, I wanted the app to be simple, user-friendly, and designed with accessibility in mind, using contrasting colors that work for everyone. I added five tabs to allow users to easily navigate through different sections.")
                         .frame(maxWidth: .infinity, alignment: .leading)
