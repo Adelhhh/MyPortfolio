@@ -9,15 +9,15 @@ import SwiftUI
 
 struct CareerOverviewView: View {
     let experiences = [
-        ("App-utvecklare", "Sunny at sea", "Maj 2024 - Nov 2024", "Internship"),
-        ("UX/UI-designer", "OurLiving", "Mars 2023 - Juni 2023", "Internship"),
-        ("UX/UI-designer", "Columbus", "April 2022 - Juni 2022", "Internship"),
+        ("App-developer", "Sunny at sea", "Maj 2024 - Nov 2024", "Internship"),
+        ("UX/UI-designer", "OurLiving", "Mars 2023 - June 2023", "Internship"),
+        ("UX/UI-designer", "Columbus", "April 2022 - June 2022", "Internship"),
         ("Care Assistant", "Malmö stad", "July 2016 - present", "Contract"),
         ("Sale Assistant", "Lidl Sverige", "June 2013 - Aug 2020", "")
     ]
     
     let educations = [
-        ("iOS/Android Programmer", "MY.se - Sweden", "Sep 2023 - Nov 2024", "280 YH"),
+        ("iOS/Android Developer", "MY.se - Sweden", "Sep 2023 - Nov 2024", "280 YH"),
         ("Web Development 1", "Komvux - Sweden", "May 2023 - Aug 2023", "100 YH"),
         ("UX/UI-designer", "EC-Utbildning - Sweden", "Aug 2021 - June 2023", "405 YHP"),
         ("Acting theater", "Azad University - Iran", "Dec 2002 - Maj 2006", "Bachelor's degree")

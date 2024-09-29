@@ -37,7 +37,7 @@ struct ProjectDetailView: View {
                     ColumbusUXView()
                 }
                 
-                if title == "HamiApp on App Store" {
+                if title == "HamiApp" {
                     HamiAppView()
                 }
                 
@@ -45,7 +45,7 @@ struct ProjectDetailView: View {
                     TicTacToeView()
                 }
                 
-                if title == "MyPortfolio Project" {
+                if title == "My Portfolio" {
                     MyPortfolioView()
                 }
                 

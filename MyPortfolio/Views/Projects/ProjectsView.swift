@@ -63,7 +63,7 @@ struct ProjectsView: View {
                             Divider()
                             
                             NavigationLink(destination: ProjectDetailView(title: "Internship at OurLiving", description: "")) {
-                                ProjectItem(title: "Internship at OurLiving", description: "Design of the OurLiving Website and a Digital Board as a New Platform", imageName: "OurLiving")
+                                ProjectItem(title: "Internship at OurLiving", description: "Design of the OurLiving Platform and a Digital Board as a New Product.", imageName: "OurLiving")
                             }
                             .padding()
                             
@@ -77,14 +77,14 @@ struct ProjectsView: View {
                             Divider()
                             
                         } else {
-                            NavigationLink(destination: ProjectDetailView(title: "MyPortfolio Project", description: "")) {
+                            NavigationLink(destination: ProjectDetailView(title: "My Portfolio", description: "")) {
                                 ProjectItem(title: "My Portfolio-App", description: "MyPortfolio is an app that showcases my UX-design and programming projects. It highlights my skills in design and development, following key portfolio principles. The app offers a interactive way to explore my work, making it easy for you to see my expertise in UX/UI and app development.", imageName: "MyPortfolioProject")
                             }
                             .padding()
                             
                             Divider()
                             
-                            NavigationLink(destination: ProjectDetailView(title: "HamiApp on App Store", description: "")) {
+                            NavigationLink(destination: ProjectDetailView(title: "HamiApp", description: "")) {
                                 ProjectItem(title: "HAMI", description: "I designed and created HamiApp, available on the App Store, as my first experience with Swift and SwiftUI. This all-in-one productivity app streamlines task management, expense tracking, and collaboration with features like intelligent reminders, quick expense capture, and flexible report generation, making it ideal for both individuals and teams.", imageName: "HAMI-App")
                             }
                             .padding()
