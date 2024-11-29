@@ -20,12 +20,13 @@ struct NavBarView: View {
                 }
                 .tag(0)
             
-            CareerOverviewView()
+           /* CareerOverviewView()
                 .tabItem {
                     Image(systemName: "doc.text")
                     Text("CV")
                 }
                 .tag(1)
+            */
             
             ProfileView()
                 .tabItem {
@@ -34,12 +35,13 @@ struct NavBarView: View {
                 }
                 .tag(2)
             
-            ReferencesView()
+           /* ReferencesView()
                 .tabItem {
                     Image(systemName: "person.3.sequence.fill")
                     Text("References")
                 }
                 .tag(3)
+            */
             
             MyInfoView()
                 .tabItem {
